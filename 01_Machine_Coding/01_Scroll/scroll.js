@@ -13,7 +13,9 @@ function scroll(){
 
     let scrolled = (scrollTop/scrollHeight) * 100
 
-    console.log(scrolled)
+    console.log("ScrollTop:", scrollTop)
+    console.log("ScrollHeight:", scrollHeight)
+    console.log("Scrolled:",scrolled)
 
     indicator.style.width = `${scrolled}%`
 }
